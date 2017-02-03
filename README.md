@@ -3,7 +3,6 @@
 - [Installation](#installation)
     - [Composer](#composer)
 - [Usage](#usage)
-    - [Test Data](#test-data)
     - [How To Use](#how-to-use)
     - [Result](#result)
 - [License](#license)
