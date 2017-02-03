@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Core;
+namespace LArtie\ApiPagination\Core;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class ApiPagination
- * @package App\Core
+ * @package LArtie\ApiPagination
  */
 final class ApiPagination
 {
@@ -48,7 +48,7 @@ final class ApiPagination
      *
      * @return bool
      */
-    public function hasMorePages()
+    public function hasMorePages() : bool
     {
         return $this->hasMore;
     }
@@ -58,7 +58,7 @@ final class ApiPagination
      *
      * @return array
      */
-    public function toArray()
+    public function toArray() : array
     {
         return [
             'items' => $this->items,
@@ -79,7 +79,7 @@ final class ApiPagination
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return $this->toArray();
     }
@@ -90,7 +90,7 @@ final class ApiPagination
      * @param  int  $options
      * @return string
      */
-    public function toJson($options = 0)
+    public function toJson($options = 0) : string
     {
         return json_encode($this->jsonSerialize(), $options);
     }

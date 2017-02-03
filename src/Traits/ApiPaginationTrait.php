@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Traits;
+namespace LArtie\ApiPagination\Traits;
 
-use App\Core\ApiPagination;
+use LArtie\ApiPagination\Core\ApiPagination;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 
 /**
  * Class ApiPaginatorTrait
- * @package App\Traits
+ * @package LArtie\ApiPagination
  */
 trait ApiPaginationTrait
 {

@@ -1,6 +1,10 @@
 {
     "name": "lartie/api-pagination",
+    "description": "Laravel Api Pagination",
     "type": "library",
+    "keywords": [
+        "api", "laravel", "pagination"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +12,12 @@
             "email": "log.wil.log@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "LArtie\\ApiPagination\\": "src/"
+        }
+    }
 }
