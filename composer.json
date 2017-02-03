@@ -1,0 +1,12 @@
+{
+    "name": "lartie/api-pagination",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artemy Beliankin",
+            "email": "log.wil.log@gmail.com"
+        }
+    ],
+    "require": {}
+}
